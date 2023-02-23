@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color: #131518;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    padding: 48px 40px 32px 32px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    max-width: 412px;
+    color: #FFFFFF;
+}
+
+.star{
+    margin-bottom: 46px;
+    margin-left: 16px;
+}
+
+h1{
+    margin-bottom: 7px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.about{
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #969FAD;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 21.5px;
+    margin-bottom: 32px;
+}
+
+ul li .rate {
+    background: #262E38;
+    border-radius: 50%;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #7C8798;
+    border: none;
+    width: 51px;
+    height: 51px;
+    cursor: pointer;
+}
+
+.rate:hover{
+    background: #7C8798;
+    color: white;
+}
+
+.rate.active{
+    background: #FC7614;
+    color: white;
+}
+
+.rate:focus{
+    background: #FC7614;
+    color: white;
+}
+
+.submit{
+    background: #FC7614;
+    border-radius: 22.5px;
+    letter-spacing: 2px;
+    border: none;
+    color: white;
+    width: 100%;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background: #FFFFFF;
+    color: #FC7614;
+}
+
+
+.hidden{
+    padding: 45px 40px 45px 32px;
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    max-width: 412px;
+    max-height: 410px;
+    align-items: center;
+}
+
+.hidden img{
+    max-width: 162px;
+    max-height: 108px;
+    margin-bottom: 32px;
+}
+
+.result {
+    background: #262E38;
+    border-radius: 22.5px;
+    padding: 4px 20px;
+    margin-bottom: 32px;
+}
+
+.num{
+    color: #FC7614;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.hidden h1{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.hidden .ending{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #969FAD;
+}
+
+.hide{
+    display: none;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Rating-Component</title>
+</head>
+<body>
+  <div class="box">
+    <img src="./images/icon-star.svg" alt="star" class="star">
+    <h1>How did we do?</h1>
+    <p class="about">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    <div class="rating">
+      <ul class="numbers">
+        <li><button class="rate">1</button></li>
+        <li><button class="rate">2</button></li>
+        <li><button class="rate">3</button></li>
+        <li><button class="rate">4</button></li>
+        <li><button class="rate">5</button></li>
+      </ul>
+      <button class="submit" id="btn"type="button">SUBMIT</button>
+    </div>
+  </div>
+
+  <div class="hidden hide">
+    <img src="/images/illustration-thank-you.svg">
+    <div class="result"><p class="num">You selected 
+      <span id="number"></span>
+       out of 5</p></div>
+    <h1>Thank you!</h1>
+    <p class="ending">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+  </div>
+  
+  <script src="./script.js"></script>
+</body>
+</html>
